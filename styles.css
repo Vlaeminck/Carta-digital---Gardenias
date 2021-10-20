@@ -1,0 +1,105 @@
+div a {
+  transition: opacity 2s ease-in 5s;
+}
+h1 {
+  font-family: "Futura book";
+  color: #7b8a83;
+}
+.menu {
+  margin-top: -10%;
+  display: flex;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  background-color: #7b8a83;
+  align-items: center;
+  margin-left: -10px;
+  margin-right: -10px;
+}
+
+.wrapper {
+  max-height: 12opx;
+  display: flex;
+  overflow-x: auto;
+}
+
+.wrapper::-webkit-scrollbar {
+  width: 0%;
+}
+
+.wrapper span {
+  background-color: #7b8a83;
+  min-width: 180px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  align-items: center;
+}
+
+.wrapper span a {
+  text-decoration: none;
+  font-family: "Futura book";
+  color: white;
+}
+
+h2 {
+  font-family: "Futura book";
+  color: #7b8a83;
+}
+.desayunos {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 10px;
+}
+.futura {
+  font-family: "Futura book";
+  color: #7b8a83;
+}
+
+.flex-container {
+  font-family: "Futura book";
+  display: flex;
+  color: #7b8a83;
+  font-size: 130%;
+}
+
+.precio {
+  justify-content: flex-start;
+}
+.info {
+  font-size: 70%;
+}
+img.trans {
+  opacity: 0;
+}
+div.padbot {
+  padding-bottom: 7px;
+}
+@media (max-width: 1024px) {
+  /*and (orientation: landscape)
+  .wrapper span {
+    background-color: red;
+  }
+  */
+
+  /*Multimedia: Si el width es mayor a 1024px y está en landscape - entonces .menu()*/
+  /*Hubo varios intentos de operar con and (orientation: landscape)
+  Funciona el media sin otro condicional*/
+  #divisor {
+    padding-bottom: 50px;
+  }
+}
+/*Cuando es menor< o =igual que 1024 se activa el @media, si es mayor a 1024 apagar @media*/
+
+@media (min-width: 1025px) {
+  /*Acá se activa otro color por establecer que si es igual o mayor que 1025 encender @mediaquery azul*/
+  /*float: inline-end Al tener el menu con float se anulaba el scroll, lo cambie por un #divisor que genera pading*/
+
+  #divisor {
+    padding-bottom: 75px;
+  }
+
+  .wrapper span {
+    background-color: red;
+  }
+}
