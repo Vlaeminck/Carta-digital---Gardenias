@@ -44,7 +44,7 @@ h1 {
 
 h2 {
   font-family: "Futura book";
-  color: #7b8a83;
+  color: hsl(154, 7%, 53%);
 }
 .desayunos {
   display: flex;
@@ -61,6 +61,9 @@ h2 {
   display: flex;
   color: #7b8a83;
   font-size: 130%;
+  /* border-color: black;
+  border-style:solid; */
+  margin-top: 7px;
 }
 
 .precio {
