@@ -46,6 +46,8 @@ h2 {
   font-family: "Futura book";
   color: hsl(154, 7%, 53%);
 }
+
+
 .desayunos {
   display: flex;
   flex-direction: column;
@@ -78,7 +80,7 @@ img.trans {
 div.padbot {
   padding-bottom: 7px;
 }
-@media (max-width: 1024px) {
+@media (max-width: 940px) {
   /*and (orientation: landscape)
   .wrapper span {
     background-color: red;
@@ -94,7 +96,7 @@ div.padbot {
 }
 /*Cuando es menor< o =igual que 1024 se activa el @media, si es mayor a 1024 apagar @media*/
 
-@media (min-width: 1025px) {
+@media (min-width: 941px) {
   /*Acá se activa otro color por establecer que si es igual o mayor que 1025 encender @mediaquery azul*/
   /*float: inline-end Al tener el menu con float se anulaba el scroll, lo cambie por un #divisor que genera pading*/
 
