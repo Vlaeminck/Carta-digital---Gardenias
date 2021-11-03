@@ -15,6 +15,7 @@ h1 {
   align-items: center;
   margin-left: -10px;
   margin-right: -10px;
+  height: 60px;
 }
 
 .wrapper {
@@ -46,7 +47,6 @@ h2 {
   font-family: "Futura book";
   color: hsl(154, 7%, 53%);
 }
-
 
 .desayunos {
   display: flex;
