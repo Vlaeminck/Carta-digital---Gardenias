@@ -108,3 +108,16 @@ div.padbot {
     background-color: red;
   }
 }
+
+@media (min-width: 1200px) {
+  /*Acá se activa otro color por establecer que si es igual o mayor que 1025 encender @mediaquery azul*/
+  /*float: inline-end Al tener el menu con float se anulaba el scroll, lo cambie por un #divisor que genera pading*/
+
+  #divisor {
+    padding-bottom: 95px;
+  }
+
+  .wrapper span {
+    background-color: blue;
+  }
+}
