@@ -2,6 +2,8 @@ body {
 }
 .general {
   background-image: url(img/gardenias.gif);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 div a {
