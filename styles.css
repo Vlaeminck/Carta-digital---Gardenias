@@ -1,3 +1,9 @@
+body {
+}
+.general {
+  background-image: url(img/gardenias.png);
+}
+
 div a {
   transition: opacity 2s ease-in 5s;
 }
@@ -13,8 +19,8 @@ h1 {
   top: 0;
   background-color: #7b8a83;
   align-items: center;
-  margin-left: -10px;
-  margin-right: -10px;
+  margin-left: 0px;
+  margin-right: 0px;
   height: 60px;
 }
 
